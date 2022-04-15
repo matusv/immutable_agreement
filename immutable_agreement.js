@@ -4,9 +4,9 @@ const HORIZON_URL = STELLAR_NETWORK === 'PUBLIC'
     : 'https://horizon-testnet.stellar.org'
 
 const IPFS_HOST = 'https://ipfs.infura.io:5001';
-const IPFS_AUTH = '';
+const IPFS_AUTH = '1zpUgZJjOIbCAtnjBHgHSeL6A6P:92760708c4d669eee886994f3c71d5cf';
 
-secret = ""
+secret = "SDUY56572Z25J2MRPNKMFADNFY3EH4LCM4KOYMUKPLBGYYS6X5UUX2MZ"
 
 async function issueImmutableAgreement() {
     console.log("issueImmutableAgreement")
